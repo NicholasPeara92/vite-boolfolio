@@ -1,16 +1,9 @@
 <script>
-import axios from "axios";
-import ListProject from "./ListProjects.vue";
-export default {
-  name: "AppMain",
-  components: {
-    ListProject,
-  },
-};
+export default {};
 </script>
 
 <template>
-  <ListProject />
+  <router-view></router-view>
 </template>
 
 <style lang="scss" scoped></style>
