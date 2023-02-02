@@ -24,8 +24,6 @@ export default {
       .catch((err) => {
         console.log(err);
         this.$router.push({ name: "page-404" });
-        // if (err.response.status === 404) {
-        // }
       });
   },
 };
