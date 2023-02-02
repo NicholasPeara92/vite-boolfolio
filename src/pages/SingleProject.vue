@@ -2,7 +2,7 @@
   <div v-if="project">
     <img :src="project.image_url" :alt="project.title" />
     <h1>{{ project.title }}</h1>
-    <p>{{ project.content }}</p>
+    <p>{{ project.description }}</p>
   </div>
 </template>
 
