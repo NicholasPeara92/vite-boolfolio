@@ -6,7 +6,7 @@ export default {
 
 <template>
   <footer>
-    <h4>ciao</h4>
+    <div><h1>Footer</h1></div>
   </footer>
 </template>
 
